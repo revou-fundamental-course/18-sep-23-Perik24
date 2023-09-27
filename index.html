@@ -42,7 +42,7 @@
           <div class="slideshow-container">
             <div class="mySlides fade">
               <img
-                src="./images/image1https://github.com/revou-fundamental-course/18-sep-23-Perik24.git.jpg"
+                src="./images/image1.jpg"
                 alt="Slide 1"
                 width="600px"
                 height="300px"
@@ -98,13 +98,14 @@
             <form>
               <div class="input-group">
                 <label for="name">Your Name:</label><br />
-                <input type="text" placeholder="First And Last Name" /><br />
+                <input type="text" id="name" placeholder="First And Last Name" /><br />
               </div>
               <div class="input-group">
                 <label for="email">Email Adress:</label><br />
                 <input
                   required
                   type="text"
+                  id="email"
                   placeholder="Example@gmail.com"
                 /><br />
               </div>
@@ -117,7 +118,7 @@
                   <option value="option4">d</option>
                 </select>
               </div>
-              <button type="button" class="btn">SEND</button>
+              <button type="button" class="btn" onclick="validateForm()">SEND</button>
             </form>
           </div>
         </div>
